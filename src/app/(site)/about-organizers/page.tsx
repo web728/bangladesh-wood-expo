@@ -44,11 +44,26 @@ export default function Organisers() {
           <div>
             <p className="eyebrow" data-reveal>How we work together</p>
             <h2 className="h-lg" data-reveal>International exhibitors, <em>Bangladeshi buyers.</em></h2>
-            <ul className="check-list" data-reveal>
-              <li><Icon name="check" />Futurex runs the India & international desk: overseas exhibitors, country participation, media partners and sales.</li>
-              <li><Icon name="check" />ASK Trade runs the Bangladesh secretariat: venue operations, local exhibitors, visitor promotion, associations and government relations.</li>
-              <li><Icon name="check" />Together they run nationwide visitor campaigns: city roadshows, press, TV, radio, outdoor, digital and WhatsApp.</li>
-            </ul>
+          <ul className="check-list" data-reveal>
+  <li>
+    <Icon name="check" />
+    Futurex manages international exhibitor participation, 
+    industry partnerships and exhibition promotion in India 
+    and overseas markets.
+  </li>
+  <li>
+    <Icon name="check" />
+    ASK Trade manages local exhibitor participation, event 
+    operations, visitor promotion and industry relations 
+    in Bangladesh.
+  </li>
+  <li>
+    <Icon name="check" />
+    Both organisations work together to bring exhibitors, 
+    industry professionals and business visitors together 
+    through targeted promotion and industry outreach.
+  </li>
+</ul>
           </div>
         </div>
       </section>

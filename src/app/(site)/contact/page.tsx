@@ -6,8 +6,8 @@ import { pageMeta, graph, breadcrumbNode, organizationNodes } from '@/lib/seo';
 import { contacts, offices, event, telHref, waHref, social } from '@/lib/site';
 
 export const metadata = pageMeta({
-  title: 'Contact Us | Stall Booking, Visitors & Sponsorship | Bangladesh Wood',
-  description: 'Contact the Bangladesh Wood Expo team: stall booking (India & international), the Bangladesh secretariat, sponsorship and media, by phone, WhatsApp or email.',
+  title: 'Contact Us | Stall Booking & General Enquiries | Bangladesh Wood Expo',
+  description: 'Get in touch with the Bangladesh Wood Expo team for stall bookings, visitor enquiries, sponsorship opportunities and event information.',
   path: '/contact',
 });
 
