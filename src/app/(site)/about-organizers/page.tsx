@@ -83,7 +83,7 @@ export default function Organisers() {
               <article className="card" key={o.name} data-reveal>
                 <p className="card__kicker">Office</p>
                 <h3 className="h-sm">{o.name}</h3>
-                <p>{o.lines.map((l) => <span key={l}>{l}<br /></span>)}{o.phone}</p>
+                
               </article>
             ))}
           </div>
