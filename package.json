@@ -1,3 +1,4 @@
+
 {
   "name": "bangladesh-wood-expo",
   "version": "1.0.0",
@@ -8,17 +9,12 @@
     "dev": "next dev",
     "start": "next start",
     "db:local": "node scripts/local-db.mjs",
-    "typecheck": "tsc --noEmit",
-    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
-    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
-    "upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload",
-    "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
+    "typecheck": "next typegen && tsc --noEmit"
   },
   "engines": {
-    "node": ">=20.9.0"
+    "node": ">=22.13.0"
   },
   "dependencies": {
-    "@opennextjs/cloudflare": "^1.20.18",
     "googleapis": "^190.0.0",
     "gsap": "^3.15.0",
     "jose": "^6.2.13",
@@ -46,7 +42,6 @@
     "puppeteer-core": "^25.18.1",
     "sharp": "^0.35.5",
     "tailwindcss": "^4.3.5",
-    "typescript": "^5.9.3",
-    "wrangler": "^4.167.0"
+    "typescript": "^5.9.3"
   }
 }
